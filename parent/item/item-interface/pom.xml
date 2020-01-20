@@ -12,11 +12,12 @@
     <artifactId>item-interface</artifactId>
 
     <dependencies>
-        <!--web-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>javax.persistence</groupId>
+            <artifactId>persistence-api</artifactId>
+            <version>${persistence-api.version}</version>
         </dependency>
+
     </dependencies>
 
 </project>
