@@ -30,7 +30,7 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
-        <!--mybatis启-->
+        <!--mybatis启动器-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -45,7 +45,8 @@
         <!--通用mapper-->
         <dependency>
             <groupId>tk.mybatis</groupId>
-            <artifactId>mapper-spring-boot-starter</artifactId>
+            <artifactId>mapper</artifactId>
+            <version>${mapper.starter.version}</version>
         </dependency>
 
         <!--分页插件-->

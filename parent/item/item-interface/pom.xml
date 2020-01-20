@@ -12,11 +12,6 @@
     <artifactId>item-interface</artifactId>
 
     <dependencies>
-        <!--<dependency>
-            <groupId>com.leyou</groupId>
-            <artifactId>item-interface</artifactId>
-        </dependency>-->
-
         <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
