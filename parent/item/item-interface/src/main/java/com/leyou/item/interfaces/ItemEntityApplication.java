@@ -1,4 +1,4 @@
-package com.leyou.item.entity;
+package com.leyou.item.interfaces;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
