@@ -5,9 +5,11 @@ spring:
     name: GATEWAY
 # eureka注册
 eureka:
+  instance:
+    hostname: 127.0.0.1
   client:
     service-url:
-      defaultZone: http://localhost:8080/eureka/
+      defaultZone: http://${eureka.instance.hostname}:8080/eureka/
     # 默认自动拉取eureka注册列表。那么可以设置多久拉取一次服务，这里设置5秒拉取一次（默认30秒）
     registry-fetch-interval-seconds: 5
 
@@ -15,6 +17,7 @@ eureka:
 zuul:
   # 配置路由前缀
   prefix: /api
+  # 配置路由对象
   routes:
     ITEM-SERVER: /item-server/**
 
